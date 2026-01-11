@@ -8,7 +8,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Agregaty();
+        Laczenie();
+        //Grupowanie();
+        //Agregaty();
         //zbiory();
         //omijanieNPierwszych(3);
         //dorosliStudenci();
@@ -112,4 +114,34 @@ class Program
         Console.WriteLine($"Czy wszyscy studenci są dorośli? {data.Studenci.All(s => s.Wiek >= 18)}");
     }
 
+    static void Grupowanie()
+    {
+        var grupyWiekowe = data.Studenci
+            .GroupBy(s => s.Wiek >= 21 ? "Dorośli" : "Młodzi");
+        foreach (var grupa in grupyWiekowe)
+        {
+            Console.WriteLine($"{grupa.Key}:");
+            foreach (var student in grupa)
+            {
+                Console.WriteLine($" - {student.Imie} {student.Nazwisko}, Wiek: {student.Wiek}");
+            }
+        };
+    }
+
+    static void Laczenie()
+    {
+        var zaliczeniaZeStudentami = from zaliczenie in data.Zaliczenia
+            join student in data.Studenci
+            on zaliczenie.StudentId equals student.Id
+            select new
+            {
+                student.Imie,
+                student.Nazwisko,
+                zaliczenie.Ocena
+            };
+        foreach (var wpis in zaliczeniaZeStudentami)
+        {
+            Console.WriteLine($"{wpis.Imie} {wpis.Nazwisko}: {wpis.Ocena}");
+        }
+    }
 }

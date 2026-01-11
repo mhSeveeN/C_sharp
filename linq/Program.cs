@@ -8,7 +8,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        dorosliStudenci();
+        Agregaty();
+        //zbiory();
+        //omijanieNPierwszych(3);
+        //dorosliStudenci();
        // wypiszStudentowPowyzej21roku();
         //zapytanieZKlasami();
         //foreach (var kurs in mojeKursy())
@@ -81,4 +84,32 @@ class Program
                 Console.WriteLine(" - Młody student");}
         }
     }
+    static void omijanieNPierwszych(int n)
+    {
+        var studenciPoPominięciu = data.Studenci
+            .Skip(n);
+            Console.WriteLine($"Studenci po pominięciu pierwszych {n}: {string.Join(", ", studenciPoPominięciu.Select(s => s.Nazwisko ?? "Brak nazwiska"))}"); 
+    }
+    static void zbiory()
+    {
+        int[] liczbyA = { 1, 2, 3, 4, 5 };
+        int[] liczbyB = { 4, 5, 6, 7, 8 };
+
+        int[] duplikaty = {1,1,2,2,3,3};
+        Console.WriteLine($"Unikalne liczby ze zbioru Duplikatów: {string.Join(", ", duplikaty.Distinct())}");
+
+        Console.WriteLine($"union: {string.Join(", ", liczbyA.Union(liczbyB))}");
+        Console.WriteLine($"intersect: {string.Join(", ", liczbyA.Intersect(liczbyB))}");
+        Console.WriteLine($"except: {string.Join(", ", liczbyA.Except(liczbyB))}");
+    }
+
+    static void Agregaty()
+    {
+        Console.WriteLine($"Liczba studentów: {data.Studenci.Count()}");
+        Console.WriteLine($"Najmłodszy student ma: {data.Studenci.Min(s => s.Wiek)} lat");
+        Console.WriteLine($"Najstarszy student ma: {data.Studenci.Max(s => s.Wiek)} lat");
+        Console.WriteLine($"Średni wiek studentów: {data.Studenci.Average(s => s.Wiek)} lat");
+        Console.WriteLine($"Czy wszyscy studenci są dorośli? {data.Studenci.All(s => s.Wiek >= 18)}");
+    }
+
 }

@@ -22,21 +22,21 @@ class Program
                 Counter[order] = 1;
         }
 
-        // Wyświetlenie wszystkich zamówień w kolejności składania
+        
         Console.WriteLine("\nAll orders in order:");
         foreach (var order in orders)
         {
             Console.WriteLine(order);
         }
 
-        // Wyświetlenie liczby zamówionych sztuk każdego dania
+        
         Console.WriteLine("\nOrder counts:");
         foreach (var item in Counter)
         {
             Console.WriteLine($"{item.Key}: {item.Value}");
         }
 
-        // Usunięcie zamówienia z listy i aktualizacja słownika
+        
         while (true)
         {
             Console.WriteLine("\nEnter the order to remove (or 'done' to finish):");

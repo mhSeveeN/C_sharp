@@ -38,12 +38,25 @@ class Program
                     Console.WriteLine("Wybrano opcję: Dodawania wydatków");
                     Console.WriteLine("Podaj nazwę wydatku:");
                     string name = Console.ReadLine();
+                    if (string.IsNullOrWhiteSpace(name)) //Sprawdzenie, czy nazwa wydatku nie pozostaje pusta.
+                    {
+                        Console.WriteLine("Nazwa wydatku nie może być pusta. Wydatek nie został dodany.");
+                        goto back;
+                    }
                     Console.WriteLine("Podaj kwotę wydatku:");
                     string amountInput = Console.ReadLine();
                     if (double.TryParse(amountInput, out double amount))
                     {
-                        expenses.Add(new Expense(name, amount));
-                        Console.WriteLine("Wydatek dodany pomyślnie.");
+                        //Walidacja: sprawdzenie czy kwota jest dodatnia
+                        if (amount <= 0)
+                        {
+                            Console.WriteLine("Kwota musi być większa od zera. Wydatek nie został dodany.");
+                        }
+                        else
+                        {
+                            expenses.Add(new Expense(name, amount));
+                            Console.WriteLine("Wydatek dodany pomyślnie.");
+                        }
                     }
                     else
                     {
@@ -70,23 +83,39 @@ class Program
 
                 case 3: //Opcja 3: Obliczanie łącznej kwoty wydatków
                     Console.WriteLine("Wybrano opcję: Obliczania łącznej kwoty wydatków");
-                    double total = expenses.Sum(e => e.Amount);
-                    Console.WriteLine($"Łączna kwota wydatków: {total} zł.");
+                    //Walidacja: sprawdzenie czy lista nie jest pusta
+                    if (expenses.Count == 0)
+                    {
+                        Console.WriteLine("Brak wydatków. Nie można obliczyć sumy.");
+                    }
+                    else
+                    {
+                        double total = expenses.Sum(e => e.Amount);
+                        Console.WriteLine($"Łączna kwota wydatków: {total} zł.");
+                    }
                     goto back;
 
                 case 4: //Opcja 4: Znajdowanie największego wydatku
                     Console.WriteLine("Wybrano opcję: Znajdowania największego wydatku");
-                    double maxExpense = 0;
-                    string maxExpenseName = "";
-                    foreach (var expense in expenses)
+                    //Walidacja: sprawdzenie czy lista nie jest pusta
+                    if (expenses.Count == 0)
                     {
-                        if (expense.Amount > maxExpense)
-                        {
-                            maxExpense = expense.Amount;
-                            maxExpenseName = expense.Name;
-                        }
+                        Console.WriteLine("Brak wydatków. Nie można znaleźć największego wydatku.");
                     }
-                    Console.WriteLine($"Największy wydatek to {maxExpenseName} o wartości {maxExpense} zł.");
+                    else
+                    {
+                        double maxExpense = 0;
+                        string maxExpenseName = "";
+                        foreach (var expense in expenses)
+                        {
+                            if (expense.Amount > maxExpense)
+                            {
+                                maxExpense = expense.Amount;
+                                maxExpenseName = expense.Name;
+                            }
+                        }
+                        Console.WriteLine($"Największy wydatek to {maxExpenseName} o wartości {maxExpense} zł.");
+                    }
                     goto back;
 
                 case 5: //Opcja 5: Wyjście z programu
@@ -94,8 +123,8 @@ class Program
                     break;
 
                 default: //Walidacja poprawności wyboru opcji pętli switch case
-                    Console.WriteLine("Nieprawidłowa opcja. Uruchom program ponownie.");
-                    break;
+                    Console.WriteLine("Nieprawidłowa opcja. Spróbuj ponownie.");
+                    goto back; //Powrót do menu głównego
             }
         }
         else

@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+﻿
+>>>>>>> 39fee9b (Added Programs containing methods with simplier examples in work)
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
@@ -6,6 +10,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AplikacjeKonsolowe", "Aplik
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProgramyMatematyczne", "ProgramyMatematyczne", "{08332F7A-6EB1-3FD3-AEB7-723299A3BE9E}"
 EndProject
+<<<<<<< HEAD
+=======
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WinForms", "WinForms", "{2196FF34-E6CA-1178-A4A8-C35FB22CF3D4}"
+EndProject
+>>>>>>> 39fee9b (Added Programs containing methods with simplier examples in work)
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplikacjaLotnicza", "AplikacjeKonsolowe\AplikacjaLotnicza\AplikacjaLotnicza.csproj", "{04E7EC89-7B3D-2294-9FF4-6BF0243B5F21}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apteka", "AplikacjeKonsolowe\Apteka\Apteka.csproj", "{780F8918-8B58-FCCE-A004-FD1BE9D7D9D5}"
@@ -22,28 +31,79 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magazyn", "AplikacjeKonsolo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pyramida", "AplikacjeKonsolowe\Pyramida\Pyramida.csproj", "{7454F942-C46F-0410-917F-D8113276F667}"
 EndProject
+<<<<<<< HEAD
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList", "AplikacjeKonsolowe\ToDoList\ToDoList.csproj", "{826E9496-C7B5-973D-BC0E-994DE4592CA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CelsiusFahrenheit", "ProgramyMatematyczne\CelsiusFahrenheit\CelsiusFahrenheit.csproj", "{7E24B1A0-A04D-7FD3-5808-C78424CF361D}"
+EndProject
+>>>>>>> 39fee9b (Added Programs containing methods with simplier examples in work)
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "ProgramyMatematyczne\Fibonacci\Fibonacci.csproj", "{2EA7A72F-1A90-05EC-75C8-A51080989DE4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HazardGame", "ProgramyMatematyczne\HazardGame\HazardGame.csproj", "{C54F419E-EB8B-0B2E-47C1-6D1B261D5783}"
 EndProject
+<<<<<<< HEAD
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IleRazyWystepuje", "ProgramyMatematyczne\IleRazyWystepuje\IleRazyWystepuje.csproj", "{35885459-7968-EBB4-2766-58408786311A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IleWiekszychLiczb", "ProgramyMatematyczne\IleWiekszychLiczb\IleWiekszychLiczb.csproj", "{859E3814-F302-93B8-16A1-BAFB594A20B7}"
+EndProject
+>>>>>>> 39fee9b (Added Programs containing methods with simplier examples in work)
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kalkulator", "ProgramyMatematyczne\Kalkulator\Kalkulator.csproj", "{8E41968C-19B7-2E47-4628-202DD8B205ED}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiczbyParzysteINie", "ProgramyMatematyczne\LiczbyParzysteINie\LiczbyParzysteINie.csproj", "{27A75E6C-41DE-EA95-4200-4CF5FCC4BA06}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiczbyPierwsze", "ProgramyMatematyczne\LiczbyPierwsze\LiczbyPierwsze.csproj", "{5D6E5051-B2A2-20D4-A3B0-191FA248E34A}"
 EndProject
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdwracanieLiczby", "ProgramyMatematyczne\OdwracanieLiczby\OdwracanieLiczby.csproj", "{E5EB03F0-C94A-2230-E89E-C5B5CC17365E}"
 EndProject
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lista5Liczb", "ProgramyMatematyczne\Lista5Liczb\Lista5Liczb.csproj", "{BAF6BE4C-8129-542E-1480-160A98F7C0DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaLiczb", "ProgramyMatematyczne\ListaLiczb\ListaLiczb.csproj", "{310856ED-7D83-5DB4-40A0-56583004C1A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaParzystych", "ProgramyMatematyczne\ListaParzystych\ListaParzystych.csproj", "{BE920648-8245-5C46-B213-F045E2E77289}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaUzytkownik1", "ProgramyMatematyczne\ListaUzytkownik1\ListaUzytkownik1.csproj", "{0D6E78A3-4E0B-A765-EB1E-6F2DEFF3D82C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NajwiekszaNajmniejszaWLiscie", "ProgramyMatematyczne\NajwiekszaNajmniejszaWLiscie\NajwiekszaNajmniejszaWLiscie.csproj", "{645CB1C6-D52B-34C5-3ED9-E80FF2060ECC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdwracanieLiczby", "ProgramyMatematyczne\OdwracanieLiczby\OdwracanieLiczby.csproj", "{E5EB03F0-C94A-2230-E89E-C5B5CC17365E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pelnoletnosc", "ProgramyMatematyczne\Pelnoletnosc\Pelnoletnosc.csproj", "{A0EAC466-93DF-187A-D8A0-6F109CCB883D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Podzielnosc", "ProgramyMatematyczne\Podzielnosc\Podzielnosc.csproj", "{26D3163B-D39F-AED6-1C07-33C949D60560}"
+EndProject
+>>>>>>> 39fee9b (Added Programs containing methods with simplier examples in work)
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoleKwadratu", "ProgramyMatematyczne\PoleKwadratu\PoleKwadratu.csproj", "{7B0E6424-51FE-4028-31B6-ED9C4AFDBEE2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prostokat", "ProgramyMatematyczne\Prostokat\Prostokat.csproj", "{D084F154-D7C5-7946-CBFE-3CE4C0D608F5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silnia", "ProgramyMatematyczne\Silnia\Silnia.csproj", "{CB103E2C-98B1-47AB-63BB-937E9F4E33AB}"
 EndProject
+<<<<<<< HEAD
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortowanieRosnaco", "ProgramyMatematyczne\SortowanieRosnaco\SortowanieRosnaco.csproj", "{290C07B6-D1D9-1BE0-77F3-8ADC79A41E96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumaElementówListy", "ProgramyMatematyczne\SumaElementówListy\SumaElementówListy.csproj", "{64EFACC7-1140-C253-4880-01E98DEC793C}"
+EndProject
+>>>>>>> 39fee9b (Added Programs containing methods with simplier examples in work)
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumowanieLiczb", "ProgramyMatematyczne\SumowanieLiczb\SumowanieLiczb.csproj", "{6169040C-2B1E-03D2-EBE0-DCDB4AA6A354}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TabliczkaMnozenia", "ProgramyMatematyczne\TabliczkaMnozenia\TabliczkaMnozenia.csproj", "{E3CB8BAD-F3AE-26D4-4371-1232D5BACDC6}"
 EndProject
+<<<<<<< HEAD
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsuwanieUjemnych", "ProgramyMatematyczne\UsuwanieUjemnych\UsuwanieUjemnych.csproj", "{542F9C1B-6834-7604-1D50-AF7F1534F683}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WyszukiwanieWLiscie", "ProgramyMatematyczne\WyszukiwanieWLiscie\WyszukiwanieWLiscie.csproj", "{9236CD0D-C292-C9EB-42B9-13076C1F661B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swieta001", "WinForms\Swieta001\Swieta001.csproj", "{A0E7748D-D10A-A8FC-019F-B166D6AF1DD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swieta002", "WinForms\Swieta002\Swieta002.csproj", "{5C754910-C0E3-5F0D-3F1D-2FBF1FAFA973}"
+EndProject
+>>>>>>> 39fee9b (Added Programs containing methods with simplier examples in work)
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -82,6 +142,17 @@ Global
 		{7454F942-C46F-0410-917F-D8113276F667}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7454F942-C46F-0410-917F-D8113276F667}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7454F942-C46F-0410-917F-D8113276F667}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+=======
+		{826E9496-C7B5-973D-BC0E-994DE4592CA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{826E9496-C7B5-973D-BC0E-994DE4592CA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{826E9496-C7B5-973D-BC0E-994DE4592CA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{826E9496-C7B5-973D-BC0E-994DE4592CA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E24B1A0-A04D-7FD3-5808-C78424CF361D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E24B1A0-A04D-7FD3-5808-C78424CF361D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E24B1A0-A04D-7FD3-5808-C78424CF361D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E24B1A0-A04D-7FD3-5808-C78424CF361D}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> 39fee9b (Added Programs containing methods with simplier examples in work)
 		{2EA7A72F-1A90-05EC-75C8-A51080989DE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2EA7A72F-1A90-05EC-75C8-A51080989DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EA7A72F-1A90-05EC-75C8-A51080989DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -90,6 +161,17 @@ Global
 		{C54F419E-EB8B-0B2E-47C1-6D1B261D5783}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C54F419E-EB8B-0B2E-47C1-6D1B261D5783}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C54F419E-EB8B-0B2E-47C1-6D1B261D5783}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+=======
+		{35885459-7968-EBB4-2766-58408786311A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35885459-7968-EBB4-2766-58408786311A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35885459-7968-EBB4-2766-58408786311A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35885459-7968-EBB4-2766-58408786311A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{859E3814-F302-93B8-16A1-BAFB594A20B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{859E3814-F302-93B8-16A1-BAFB594A20B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{859E3814-F302-93B8-16A1-BAFB594A20B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{859E3814-F302-93B8-16A1-BAFB594A20B7}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> 39fee9b (Added Programs containing methods with simplier examples in work)
 		{8E41968C-19B7-2E47-4628-202DD8B205ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8E41968C-19B7-2E47-4628-202DD8B205ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E41968C-19B7-2E47-4628-202DD8B205ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -102,10 +184,44 @@ Global
 		{5D6E5051-B2A2-20D4-A3B0-191FA248E34A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D6E5051-B2A2-20D4-A3B0-191FA248E34A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D6E5051-B2A2-20D4-A3B0-191FA248E34A}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+=======
+		{BAF6BE4C-8129-542E-1480-160A98F7C0DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAF6BE4C-8129-542E-1480-160A98F7C0DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAF6BE4C-8129-542E-1480-160A98F7C0DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAF6BE4C-8129-542E-1480-160A98F7C0DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{310856ED-7D83-5DB4-40A0-56583004C1A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{310856ED-7D83-5DB4-40A0-56583004C1A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{310856ED-7D83-5DB4-40A0-56583004C1A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{310856ED-7D83-5DB4-40A0-56583004C1A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE920648-8245-5C46-B213-F045E2E77289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE920648-8245-5C46-B213-F045E2E77289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE920648-8245-5C46-B213-F045E2E77289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE920648-8245-5C46-B213-F045E2E77289}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D6E78A3-4E0B-A765-EB1E-6F2DEFF3D82C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D6E78A3-4E0B-A765-EB1E-6F2DEFF3D82C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D6E78A3-4E0B-A765-EB1E-6F2DEFF3D82C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D6E78A3-4E0B-A765-EB1E-6F2DEFF3D82C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{645CB1C6-D52B-34C5-3ED9-E80FF2060ECC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{645CB1C6-D52B-34C5-3ED9-E80FF2060ECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{645CB1C6-D52B-34C5-3ED9-E80FF2060ECC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{645CB1C6-D52B-34C5-3ED9-E80FF2060ECC}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> 39fee9b (Added Programs containing methods with simplier examples in work)
 		{E5EB03F0-C94A-2230-E89E-C5B5CC17365E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E5EB03F0-C94A-2230-E89E-C5B5CC17365E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5EB03F0-C94A-2230-E89E-C5B5CC17365E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5EB03F0-C94A-2230-E89E-C5B5CC17365E}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+=======
+		{A0EAC466-93DF-187A-D8A0-6F109CCB883D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0EAC466-93DF-187A-D8A0-6F109CCB883D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0EAC466-93DF-187A-D8A0-6F109CCB883D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0EAC466-93DF-187A-D8A0-6F109CCB883D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26D3163B-D39F-AED6-1C07-33C949D60560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26D3163B-D39F-AED6-1C07-33C949D60560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26D3163B-D39F-AED6-1C07-33C949D60560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26D3163B-D39F-AED6-1C07-33C949D60560}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> 39fee9b (Added Programs containing methods with simplier examples in work)
 		{7B0E6424-51FE-4028-31B6-ED9C4AFDBEE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7B0E6424-51FE-4028-31B6-ED9C4AFDBEE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B0E6424-51FE-4028-31B6-ED9C4AFDBEE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -118,6 +234,17 @@ Global
 		{CB103E2C-98B1-47AB-63BB-937E9F4E33AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB103E2C-98B1-47AB-63BB-937E9F4E33AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB103E2C-98B1-47AB-63BB-937E9F4E33AB}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+=======
+		{290C07B6-D1D9-1BE0-77F3-8ADC79A41E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{290C07B6-D1D9-1BE0-77F3-8ADC79A41E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{290C07B6-D1D9-1BE0-77F3-8ADC79A41E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{290C07B6-D1D9-1BE0-77F3-8ADC79A41E96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64EFACC7-1140-C253-4880-01E98DEC793C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64EFACC7-1140-C253-4880-01E98DEC793C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64EFACC7-1140-C253-4880-01E98DEC793C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64EFACC7-1140-C253-4880-01E98DEC793C}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> 39fee9b (Added Programs containing methods with simplier examples in work)
 		{6169040C-2B1E-03D2-EBE0-DCDB4AA6A354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6169040C-2B1E-03D2-EBE0-DCDB4AA6A354}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6169040C-2B1E-03D2-EBE0-DCDB4AA6A354}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -126,6 +253,25 @@ Global
 		{E3CB8BAD-F3AE-26D4-4371-1232D5BACDC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3CB8BAD-F3AE-26D4-4371-1232D5BACDC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3CB8BAD-F3AE-26D4-4371-1232D5BACDC6}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+=======
+		{542F9C1B-6834-7604-1D50-AF7F1534F683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{542F9C1B-6834-7604-1D50-AF7F1534F683}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{542F9C1B-6834-7604-1D50-AF7F1534F683}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{542F9C1B-6834-7604-1D50-AF7F1534F683}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9236CD0D-C292-C9EB-42B9-13076C1F661B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9236CD0D-C292-C9EB-42B9-13076C1F661B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9236CD0D-C292-C9EB-42B9-13076C1F661B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9236CD0D-C292-C9EB-42B9-13076C1F661B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0E7748D-D10A-A8FC-019F-B166D6AF1DD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0E7748D-D10A-A8FC-019F-B166D6AF1DD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0E7748D-D10A-A8FC-019F-B166D6AF1DD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0E7748D-D10A-A8FC-019F-B166D6AF1DD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C754910-C0E3-5F0D-3F1D-2FBF1FAFA973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C754910-C0E3-5F0D-3F1D-2FBF1FAFA973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C754910-C0E3-5F0D-3F1D-2FBF1FAFA973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C754910-C0E3-5F0D-3F1D-2FBF1FAFA973}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> 39fee9b (Added Programs containing methods with simplier examples in work)
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -139,6 +285,7 @@ Global
 		{82F95013-8A62-0E13-AA7E-EAA69A4A26E6} = {AA7BE405-49E3-05F6-E8A5-7774B40C6EE1}
 		{F16A9F5B-ED84-7167-7EB9-B08F1BEEEC08} = {AA7BE405-49E3-05F6-E8A5-7774B40C6EE1}
 		{7454F942-C46F-0410-917F-D8113276F667} = {AA7BE405-49E3-05F6-E8A5-7774B40C6EE1}
+<<<<<<< HEAD
 		{2EA7A72F-1A90-05EC-75C8-A51080989DE4} = {08332F7A-6EB1-3FD3-AEB7-723299A3BE9E}
 		{C54F419E-EB8B-0B2E-47C1-6D1B261D5783} = {08332F7A-6EB1-3FD3-AEB7-723299A3BE9E}
 		{8E41968C-19B7-2E47-4628-202DD8B205ED} = {08332F7A-6EB1-3FD3-AEB7-723299A3BE9E}
@@ -153,5 +300,38 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5C784024-3EDF-46A4-84FB-2EE4E878861F}
+=======
+		{826E9496-C7B5-973D-BC0E-994DE4592CA5} = {AA7BE405-49E3-05F6-E8A5-7774B40C6EE1}
+		{7E24B1A0-A04D-7FD3-5808-C78424CF361D} = {08332F7A-6EB1-3FD3-AEB7-723299A3BE9E}
+		{2EA7A72F-1A90-05EC-75C8-A51080989DE4} = {08332F7A-6EB1-3FD3-AEB7-723299A3BE9E}
+		{C54F419E-EB8B-0B2E-47C1-6D1B261D5783} = {08332F7A-6EB1-3FD3-AEB7-723299A3BE9E}
+		{35885459-7968-EBB4-2766-58408786311A} = {08332F7A-6EB1-3FD3-AEB7-723299A3BE9E}
+		{859E3814-F302-93B8-16A1-BAFB594A20B7} = {08332F7A-6EB1-3FD3-AEB7-723299A3BE9E}
+		{8E41968C-19B7-2E47-4628-202DD8B205ED} = {08332F7A-6EB1-3FD3-AEB7-723299A3BE9E}
+		{27A75E6C-41DE-EA95-4200-4CF5FCC4BA06} = {08332F7A-6EB1-3FD3-AEB7-723299A3BE9E}
+		{5D6E5051-B2A2-20D4-A3B0-191FA248E34A} = {08332F7A-6EB1-3FD3-AEB7-723299A3BE9E}
+		{BAF6BE4C-8129-542E-1480-160A98F7C0DB} = {08332F7A-6EB1-3FD3-AEB7-723299A3BE9E}
+		{310856ED-7D83-5DB4-40A0-56583004C1A1} = {08332F7A-6EB1-3FD3-AEB7-723299A3BE9E}
+		{BE920648-8245-5C46-B213-F045E2E77289} = {08332F7A-6EB1-3FD3-AEB7-723299A3BE9E}
+		{0D6E78A3-4E0B-A765-EB1E-6F2DEFF3D82C} = {08332F7A-6EB1-3FD3-AEB7-723299A3BE9E}
+		{645CB1C6-D52B-34C5-3ED9-E80FF2060ECC} = {08332F7A-6EB1-3FD3-AEB7-723299A3BE9E}
+		{E5EB03F0-C94A-2230-E89E-C5B5CC17365E} = {08332F7A-6EB1-3FD3-AEB7-723299A3BE9E}
+		{A0EAC466-93DF-187A-D8A0-6F109CCB883D} = {08332F7A-6EB1-3FD3-AEB7-723299A3BE9E}
+		{26D3163B-D39F-AED6-1C07-33C949D60560} = {08332F7A-6EB1-3FD3-AEB7-723299A3BE9E}
+		{7B0E6424-51FE-4028-31B6-ED9C4AFDBEE2} = {08332F7A-6EB1-3FD3-AEB7-723299A3BE9E}
+		{D084F154-D7C5-7946-CBFE-3CE4C0D608F5} = {08332F7A-6EB1-3FD3-AEB7-723299A3BE9E}
+		{CB103E2C-98B1-47AB-63BB-937E9F4E33AB} = {08332F7A-6EB1-3FD3-AEB7-723299A3BE9E}
+		{290C07B6-D1D9-1BE0-77F3-8ADC79A41E96} = {08332F7A-6EB1-3FD3-AEB7-723299A3BE9E}
+		{64EFACC7-1140-C253-4880-01E98DEC793C} = {08332F7A-6EB1-3FD3-AEB7-723299A3BE9E}
+		{6169040C-2B1E-03D2-EBE0-DCDB4AA6A354} = {08332F7A-6EB1-3FD3-AEB7-723299A3BE9E}
+		{E3CB8BAD-F3AE-26D4-4371-1232D5BACDC6} = {08332F7A-6EB1-3FD3-AEB7-723299A3BE9E}
+		{542F9C1B-6834-7604-1D50-AF7F1534F683} = {08332F7A-6EB1-3FD3-AEB7-723299A3BE9E}
+		{9236CD0D-C292-C9EB-42B9-13076C1F661B} = {08332F7A-6EB1-3FD3-AEB7-723299A3BE9E}
+		{A0E7748D-D10A-A8FC-019F-B166D6AF1DD3} = {2196FF34-E6CA-1178-A4A8-C35FB22CF3D4}
+		{5C754910-C0E3-5F0D-3F1D-2FBF1FAFA973} = {2196FF34-E6CA-1178-A4A8-C35FB22CF3D4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E517E222-79CD-4D18-BD38-E177E520FF51}
+>>>>>>> 39fee9b (Added Programs containing methods with simplier examples in work)
 	EndGlobalSection
 EndGlobal
